@@ -15,4 +15,4 @@ Este projeto fornece uma interface gráfica (GUI) usando Tkinter para automatiza
 
    Apresentação da interface Gráfica:
 
-  ![image](https://github.com/user-attachments/assets/6f4fbc9a-8d2d-4b3b-836f-e995aaea53a3)
+  ![alt text](apresentacao.png)
