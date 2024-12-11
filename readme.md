@@ -11,3 +11,8 @@ Este projeto fornece uma interface gráfica (GUI) usando Tkinter para automatiza
 * **Animação Simples:** Inclui uma animação de imagem em movimento na parte superior da janela.
 * **Tratamento de Erros:** Inclui um bloco `try-except` para lidar com possíveis erros durante a execução dos scripts.  O tratamento é básico e pode ser aprimorado.
 * **Confirmação de Saída:** Solicita confirmação antes de fechar o programa.
+
+
+   Apresentação da interface Gráfica:
+
+  ![image](https://github.com/user-attachments/assets/6f4fbc9a-8d2d-4b3b-836f-e995aaea53a3)
