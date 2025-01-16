@@ -1,18 +1,38 @@
-# Automação Abertura de OS 
+## Bot de Automação para Abertura de OS no ENGEMAN
 
-O programa foi criado para automatizar uma tarefa recorrente que demandava 15 minutos de execução. A implementação desta solução resultou em uma redução do tempo de execução para 5 minutos.
+Este projeto foi desenvolvido para otimizar a abertura de Ordens de Serviço (OS) no sistema ENGEMAN, reduzindo significativamente o tempo de execução da tarefa de 15 minutos para aproximadamente 3 minutos. A solução combina eficiência e praticidade, oferecendo uma interface gráfica intuitiva e funcionalidades automatizadas.
 
-Este projeto fornece uma interface gráfica (GUI) usando Tkinter para automatizar a abertura de Ordens de Serviço (OS) no ENGEMAN.  Ele executa scripts Python com base na opção selecionada pelo usuário.
+### 🎯 Objetivo
 
-## Funcionalidades:
+Automatizar o processo de abertura de Ordens de Serviço (OS) no sistema ENGEMAN, tornando-o mais rápido, confiável e acessível para o usuário.
 
-* **Interface Gráfica Intuitiva:**  Utiliza Tkinter para uma interface fácil de usar.
-* **Execução de Scripts:** Permite executar diferentes scripts Python, cada um responsável por uma tarefa específica (ex: abertura de OS, registro de funcionário, sincronização).
-* **Animação Simples:** Inclui uma animação de imagem em movimento na parte superior da janela.
-* **Tratamento de Erros:** Inclui um bloco `try-except` para lidar com possíveis erros durante a execução dos scripts.  O tratamento é básico e pode ser aprimorado.
-* **Confirmação de Saída:** Solicita confirmação antes de fechar o programa.
+### 💡 Funcionalidades Principais
 
+*   **Interface Gráfica Intuitiva:**
+    *   Desenvolvida com Tkinter, a interface é amigável e de fácil navegação, permitindo uma interação simplificada com o programa.
 
-   Apresentação da interface Gráfica:
+*   **Execução de Scripts Automatizados:**
+    *   O programa permite a execução de diversos scripts Python, cada um projetado para uma tarefa específica, como:
+        *   Abertura de Ordens de Serviço (OS).
+        *   Registro de funcionários.
+        *   Sincronização de dados.
 
-  ![alt text](apresentacao.png)
+*   **Animação Dinâmica:**
+    *   Uma animação visual na parte superior da janela adiciona um toque moderno e atraente à interface.
+
+*   **Tratamento de Erros:**
+    *   Utiliza blocos `try-except` para identificar e tratar possíveis erros durante a execução dos scripts, garantindo maior estabilidade e confiabilidade do programa.
+
+*   **Confirmação de Saída:**
+    *   Antes de fechar o programa, uma mensagem de confirmação é exibida para evitar encerramentos acidentais.
+
+### 🔧 Destaques Técnicos
+
+*   **Redução de Tempo:** A automação implementada resulta em uma economia de tempo significativa, otimizando o fluxo de trabalho.
+*   **Flexibilidade:** Usuários podem selecionar opções e executar scripts personalizados de acordo com suas necessidades, tornando a ferramenta adaptável a diferentes situações.
+*   **Aprimorável:** Embora já funcional e com resultados expressivos, o programa permite melhorias no tratamento de erros, na interface gráfica e novas funcionalidades, mantendo-se relevante e atualizado.
+
+Este projeto demonstra como a automação pode trazer ganhos reais de eficiência e produtividade no ambiente corporativo, além de otimizar tarefas rotineiras e reduzir o tempo gasto em processos manuais.
+
+Apresentação da interface Gráfica:
+![apresentacao (1)](https://github.com/user-attachments/assets/344b3a53-9fca-4da4-9a1b-9dde73f788dd)
