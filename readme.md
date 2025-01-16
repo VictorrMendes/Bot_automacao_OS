@@ -35,4 +35,6 @@ Automatizar o processo de abertura de Ordens de Serviço (OS) no sistema ENGEMAN
 Este projeto demonstra como a automação pode trazer ganhos reais de eficiência e produtividade no ambiente corporativo, além de otimizar tarefas rotineiras e reduzir o tempo gasto em processos manuais.
 
 Apresentação da interface Gráfica:
+
+-
 ![apresentacao (1)](https://github.com/user-attachments/assets/344b3a53-9fca-4da4-9a1b-9dde73f788dd)
