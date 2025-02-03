@@ -34,6 +34,17 @@ def opcao_5():
 def opcao_6():
     executar_script("serviçoInterno.py")
 
+def opcao_7():
+    executar_script("ferias.py")
+    pyautogui.sleep(0.3)
+    executar_script("encerramento.py")
+    
+def opcao_8():
+    executar_script("vazamento.py")
+    
+def opcao_9():
+    executar_script("horimetro.py")
+
 def sair():
     resposta = messagebox.askyesno("Confirmação", "Deseja realmente sair?")
     if resposta:
@@ -60,7 +71,7 @@ def mover_imagem():
 
 root = tk.Tk()
 root.title("Automação abertura de OS /victor/")
-root.geometry("300x400")
+root.geometry("300x475")
 
 largura_canvas = 350
 altura_canvas = 50
@@ -94,6 +105,9 @@ botao_1.pack(pady=5)
 botao_2 = tk.Button(root, text="Os Servico Interno", command=opcao_2, width=25, bg="lightgreen")
 botao_2.pack(pady=5)
 
+botao_7 = tk.Button(root, text="Funcionários e Encerramento", command=opcao_7, width=25, bg="lightgreen")
+botao_7.pack(pady=5)
+
 botao_3 = tk.Button(root, text="Registrar funcionário", command=opcao_3, width=25, bg="lightgreen")
 botao_3.pack(pady=5)
 
@@ -105,6 +119,12 @@ botao_5.pack(pady=5)
 
 botao_6 = tk.Button(root, text="Serviço Interno", command=opcao_6, width=25, bg="lightgreen")
 botao_6.pack(pady=5)
+
+botao_8 = tk.Button(root, text="Vazamento", command=opcao_8, width=25, bg="lightgreen")
+botao_8.pack(pady=5)
+
+botao_9 = tk.Button(root, text="Horimetro", command=opcao_9, width=25, bg="lightgreen")
+botao_9.pack(pady=5)
 
 botao_sair = tk.Button(root, text="Sair", command=sair, width=25, bg="lightcoral")
 botao_sair.pack(pady=5)

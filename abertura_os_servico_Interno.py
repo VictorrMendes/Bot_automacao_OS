@@ -81,7 +81,7 @@ pyautogui.scroll(600)
 #pegar nome
 pyautogui.moveTo(582,740)
 pyautogui.click()
-pyautogui.moveTo(416,364)
+pyautogui.moveTo(487,494)
 pyautogui.sleep(0.5)
 pyautogui.click()
 pyautogui.hotkey('ctrl','c')
