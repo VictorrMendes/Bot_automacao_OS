@@ -11,12 +11,12 @@ repeticao = simpledialog.askinteger("Entrada", "Quantas vezes deseja executar a 
 
 #abrir planilha
 def abrir_planilha():
-    pyautogui.moveTo(584,748)
+    pyautogui.moveTo(648,1049)
     pyautogui.click()
     
 #ir para engeman   
 def abrir_engeman():
-    pyautogui.moveTo(707,742)
+    pyautogui.moveTo(1033,1051)
     pyautogui.click()
     pyautogui.sleep(0.2)
 
@@ -28,7 +28,7 @@ if repeticao:
         abrir_planilha()
 
 #clicar na celula-id
-        pyautogui.moveTo(116,352)
+        pyautogui.moveTo(149,423)
         pyautogui.click()
         pyautogui.sleep(0.3)
         pyautogui.hotkey('ctrl','c')
@@ -37,37 +37,37 @@ if repeticao:
         abrir_engeman()
 
 #pesquisar equipamento
-        pyautogui.moveTo(584,103)
+        pyautogui.moveTo(1040,124)
         pyautogui.click()
 
 #colar
         pyautogui.hotkey('ctrl','v')
 
 #pesquisar
-        pyautogui.moveTo(1344,97)
+        pyautogui.moveTo(1892,121)
         pyautogui.click()
         pyautogui.sleep(0.4)
 
 
 #seleciona
-        pyautogui.moveTo(793,202)
+        pyautogui.moveTo(737,225)
         pyautogui.click()
         pyautogui.sleep(0.4)
 
 #novo
-        pyautogui.moveTo(1342,51)
+        pyautogui.moveTo(1889,65)
         pyautogui.click()
-        pyautogui.moveTo(1288,98)
+        pyautogui.moveTo(1812,126)
         pyautogui.click()
 
 #data
-        pyautogui.moveTo(1261,271)
+        pyautogui.moveTo(1789,340)
         pyautogui.sleep(0.5)
         pyautogui.click()
         pyautogui.click()
         pyautogui.sleep(0.5)
 #ok
-        pyautogui.moveTo(684,552)
+        pyautogui.moveTo(957,747)
         pyautogui.sleep(0.4)
         pyautogui.click()
 
@@ -78,7 +78,7 @@ if repeticao:
         abrir_planilha()
 
 #copiar retorno
-        pyautogui.moveTo(191,349)
+        pyautogui.moveTo(233,424)
         pyautogui.click()
         pyautogui.sleep(0.3)
         pyautogui.hotkey('ctrl','c')
@@ -87,30 +87,22 @@ if repeticao:
         abrir_engeman()
 
 #digitar horimetro
-        pyautogui.moveTo(553,342)
+        pyautogui.moveTo(1089,434)
         pyautogui.sleep(0.5)
         pyautogui.click()
         pyautogui.hotkey('ctrl','v')
 
-# #descarte
-#         pyautogui.moveTo(1341,52)
-#         pyautogui.click()
-#         pyautogui.sleep(0.5)
-# #
-#         pyautogui.moveTo(1295,129)
-#         pyautogui.click()
-#         pyautogui.sleep(0.1)
 
 #salvar
-        pyautogui.moveTo(20,10)
+        pyautogui.moveTo(31,17)
         pyautogui.click()
-        pyautogui.sleep(4.5)
+        pyautogui.sleep(6.1)
         pyautogui.click()
-        pyautogui.sleep(0.9)
-        pyautogui.sleep(0.9)
+        pyautogui.sleep(1.3)
+
 
 #limpar pesquisa
-        pyautogui.moveTo(584,103)
+        pyautogui.moveTo(725,123)
         pyautogui.click()
         pyautogui.press("backspace", presses=7)
 
@@ -118,18 +110,18 @@ if repeticao:
         abrir_planilha()
 
 #finalizar linha
-        pyautogui.moveTo(9,350)
+        pyautogui.moveTo(14,422)
         pyautogui.click()
         pyautogui.sleep(0.3)
-        pyautogui.moveTo(298,129)
+        pyautogui.moveTo(366,162)
         pyautogui.click()
         pyautogui.sleep(0.4)
-        pyautogui.moveTo(9,350)
+        pyautogui.moveTo(15,427)
 
 #ocultar linha
         pyautogui.click(button="right")
         pyautogui.sleep(0.2)
-        pyautogui.moveTo(64,646)
+        pyautogui.moveTo(88,866)
         pyautogui.sleep(0.2)
         pyautogui.click()
         abrir_planilha()

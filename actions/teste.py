@@ -1,37 +1,40 @@
 import pyautogui
 from time import sleep
 
+
+def excel():
+    pyautogui.moveTo(646,1053)
+    pyautogui.click()
 #abrir os
 
 def abrirOs():
-    pyautogui.moveTo(1339,56)
+    pyautogui.moveTo(1888,63)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(1271,105)
+    pyautogui.moveTo(1802,126)
     pyautogui.click()
     pyautogui.sleep(1)
 
 #solicitante
 def solicitante():
-    pyautogui.moveTo(1286,412)
+    pyautogui.moveTo(1823,515)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(1268,102)
+    pyautogui.moveTo(1355,127)
     pyautogui.click()
     pyautogui.sleep(1)
     pyautogui.write("victor")
-    pyautogui.moveTo(1344,101)
+    pyautogui.moveTo(1894,125)
     pyautogui.click()
     pyautogui.sleep(0.5)
-    pyautogui.moveTo(1296,165)
+    pyautogui.moveTo(1399,204)
     pyautogui.click()
     pyautogui.sleep(0.5)
 
 #pegar nome
 def coletaNome():
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(487,494)
+    excel()
+    pyautogui.moveTo(623,605)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
@@ -39,32 +42,26 @@ def coletaNome():
 
 #responsavel
 def responsavel():
-    pyautogui.moveTo(1287,338)
+    pyautogui.moveTo(1823,434)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(1179,100)
+    pyautogui.moveTo(1429,127)
     pyautogui.click()
     pyautogui.sleep(1)
     pyautogui.hotkey('ctrl','v')
-    pyautogui.moveTo(1344,101)
+    pyautogui.moveTo(1889,128)
     pyautogui.click()
     pyautogui.sleep(0.5)
-    pyautogui.moveTo(1118,161)
+    pyautogui.moveTo(1304,192)
     pyautogui.click()
     pyautogui.sleep(0.5)
-    pyautogui.moveTo(1298, 685)
-
-#descer
-def descer():
-    pyautogui.scroll(-100)
-    pyautogui.sleep(1)
-
+    
 #tipo de manutenção
 def manut():
-    pyautogui.moveTo(1298, 685)
+    pyautogui.moveTo(1824,971)
     pyautogui.click()
     pyautogui.sleep(2)
-    pyautogui.moveTo(1298, 665)
+    pyautogui.moveTo(1756,792)
     pyautogui.click()
     pyautogui.sleep(1)
     pyautogui.moveTo(1298,660)
@@ -73,10 +70,10 @@ def manut():
 
 #setor executante
 def executante():
-    pyautogui.moveTo(1288,612)
+    pyautogui.moveTo(1829,809)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(1151,323)
+    pyautogui.moveTo(1043,392)
     pyautogui.sleep(1)
     pyautogui.click()
     pyautogui.sleep(0.5)
@@ -84,84 +81,77 @@ def executante():
 #equipamento
 def equipamento():
     #pegar equipamento
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(501,342)
+    excel()
+    pyautogui.moveTo(617,408)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.sleep(0.4)
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
+    
     #sistema equipamento
-    pyautogui.moveTo(1294,681)
+    pyautogui.moveTo(1818,895)
     pyautogui.click()
     pyautogui.sleep(0.5)
-    pyautogui.moveTo(668,102)
+    pyautogui.moveTo(1265,127)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.sleep(1.5)
-    pyautogui.moveTo(1342,99)
-    pyautogui.sleep(0.4)
     pyautogui.hotkey('ctrl','v')
-    pyautogui.moveTo(1341,101)
+    pyautogui.moveTo(1893,123)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(704,162)
+    pyautogui.moveTo(1088,187)
     pyautogui.click()
 
 #horimetro
 def horimetro():
     #pegar horimetro
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(572,343)
+    excel()
+    pyautogui.moveTo(729,405)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.sleep(0.5)
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
+    
     #horimetro
-    pyautogui.moveTo(529,345)
+    pyautogui.moveTo(1036,469)
     pyautogui.sleep(0.4)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
     pyautogui.sleep(1)
     pyautogui.scroll(600)
-    pyautogui.moveTo(505,232)
-
 #descrição
 def descricao():
     #pegar descrição
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(653,343)
+    excel()
+    pyautogui.moveTo(823,407)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
     #descrição
-    pyautogui.moveTo(954,326)
+    pyautogui.moveTo(657,452)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
     pyautogui.scroll(200)
 
-
 def horas():
-    pyautogui.moveTo(1292,219)
+    pyautogui.moveTo(1827,344)
     pyautogui.sleep(0.4)
     pyautogui.click()
 
     #pegar hora
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(321,486)
+    excel()
+    pyautogui.moveTo(417,613)
     pyautogui.sleep(0.4)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
 
-    pyautogui.moveTo(631,495)
+    pyautogui.moveTo(872,677)
     pyautogui.sleep(0.4)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
@@ -169,79 +159,78 @@ def horas():
 
 
     #pegar minuto
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(417,489)
+    excel()
+    pyautogui.moveTo(519,604)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
 
-    pyautogui.moveTo(755,496)
+    pyautogui.moveTo(1063,673)
     pyautogui.click()
     pyautogui.sleep(0.5)
     pyautogui.hotkey('ctrl','v')
-    pyautogui.moveTo(678,558)
-    pyautogui.click()
 
-    pyautogui.moveTo(1249,218)
-    pyautogui.sleep(0.5)
-    pyautogui.click()
 
+    #ok
+    pyautogui.moveTo(960,745)
+    pyautogui.click()
+    
 #data
 def data():
-    #pegar dia
-    pyautogui.moveTo(582,740)
+    
+    pyautogui.moveTo(1776,346)
+    pyautogui.sleep(0.5)
     pyautogui.click()
-    pyautogui.moveTo(322,431)
+    #pegar dia
+    excel()
+    pyautogui.moveTo(417,522)
     pyautogui.sleep(0.4)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
 
-    pyautogui.moveTo(584,494)
+    pyautogui.moveTo(838,677)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
 
 
     #pegar mes
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(415,430)
+    excel()
+    pyautogui.moveTo(520,519)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
 
-    pyautogui.moveTo(678,498)
+    pyautogui.moveTo(961,677)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
 
 
     #pegar ano
-    pyautogui.moveTo(582,740)
-    pyautogui.click()
-    pyautogui.moveTo(501,429)
+    excel()
+    pyautogui.moveTo(627,522)
     pyautogui.sleep(0.5)
     pyautogui.click()
     pyautogui.hotkey('ctrl','c')
     pyautogui.hotkey('alt','tab')
     pyautogui.sleep(0.4)
-    pyautogui.moveTo(782,498)
+    pyautogui.moveTo(1077,672)
     pyautogui.click()
     pyautogui.hotkey('ctrl','v')
 
     #ok
     pyautogui.sleep(0.4)
-    pyautogui.moveTo(682,553)
+    pyautogui.moveTo(960,743)
     pyautogui.click()
 
 #fechar
 def fechar():
     pyautogui.sleep(0.4)
-    pyautogui.moveTo(23,6)
+    pyautogui.moveTo(29,17)
     pyautogui.click()
 
 #rodar
@@ -250,7 +239,6 @@ def run():
     solicitante()
     coletaNome()
     responsavel()
-    descer()
     manut()
     executante()
     equipamento()

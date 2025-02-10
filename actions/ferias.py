@@ -242,15 +242,6 @@ pyautogui.moveTo(23,6)
 pyautogui.click()
 
 
-#ok
-pyautogui.sleep(0.4)
-pyautogui.moveTo(603,462)
-pyautogui.click()
-
-#voltar
-pyautogui.sleep(0.4)
-pyautogui.moveTo(24,13)
-pyautogui.click()
 
 
 

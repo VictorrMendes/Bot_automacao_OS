@@ -17,33 +17,33 @@ def executar_script(script):
         retorno()
 
 def opcao_1():
-    executar_script("teste.py")
+    executar_script("./actions/teste.py")
 
 def opcao_2():
-    executar_script("abertura_os_servico_Interno.py")
+    executar_script("./actions/abertura_os_servico_Interno.py")
 
 def opcao_3():
-    executar_script("funcionario.py")
+    executar_script("./actions/funcionario.py")
 
 def opcao_4():
-    executar_script("encerramento.py")
+    executar_script("./actions/encerramento.py")
 
 def opcao_5():
-    executar_script("sincronizar_engeman.py")
+    executar_script("./actions/sincronizar_engeman.py")
 
 def opcao_6():
-    executar_script("serviçoInterno.py")
+    executar_script("./actions/serviçoInterno.py")
 
 def opcao_7():
-    executar_script("ferias.py")
-    pyautogui.sleep(0.3)
-    executar_script("encerramento.py")
+    executar_script("./actions/funcionario.py")
+    pyautogui.sleep(0.9)
+    executar_script("./actions/encerramento.py")
     
 def opcao_8():
-    executar_script("vazamento.py")
+    executar_script("./actions/vazamento.py")
     
 def opcao_9():
-    executar_script("horimetro.py")
+    executar_script("./actions/horimetro.py")
 
 def sair():
     resposta = messagebox.askyesno("Confirmação", "Deseja realmente sair?")

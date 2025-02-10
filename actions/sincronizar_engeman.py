@@ -3,13 +3,13 @@ import time
 
 
 def sincronizar():
-    pyautogui.moveTo(706,746)
+    pyautogui.moveTo(582,596)
     pyautogui.click()
     pyautogui.sleep(0.7)
-    pyautogui.moveTo(408,437)
+    pyautogui.moveTo(574,570)
     pyautogui.click()
     pyautogui.sleep(1)
-    pyautogui.moveTo(408,437)
+    pyautogui.moveTo(574,570)
     pyautogui.click()
 
 sincronizar()

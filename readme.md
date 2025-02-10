@@ -1,4 +1,4 @@
-## Bot de Automação para Abertura de OS no ENGEMAN
+## Bot de Automação no ENGEMAN
 
 Este projeto foi desenvolvido para otimizar a abertura de Ordens de Serviço (OS) no sistema ENGEMAN, reduzindo significativamente o tempo de execução da tarefa de 15 minutos para aproximadamente 3 minutos. A solução combina eficiência e praticidade, oferecendo uma interface gráfica intuitiva e funcionalidades automatizadas.
 
